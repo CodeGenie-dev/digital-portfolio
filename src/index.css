@@ -1,0 +1,45 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
+  color: #444;
+  background: #000;
+  overflow-x: hidden;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.login, .dashboardHome {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login button {
+  font-size: 21px;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 10px 15px;
+  display: flex;
+  border: none;
+}
+
+.login button:hover {
+  background: whitesmoke;
+}
+
+.login svg {
+  padding-right: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    overflow-y: visible;
+  }
+}
