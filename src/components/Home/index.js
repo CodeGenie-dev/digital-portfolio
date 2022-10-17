@@ -20,7 +20,7 @@ const Home = () => {
             setLetterClass('text-animate-hover')
         }, 4000)
         const typed = new Typed(el.current, {
-          strings: ["a creative", "an inquisitive", "a passionate", "an innovative", "a tech enthusiast and"],
+          strings: ["a creative", "an inquisitive", "a passionate", "an innovative"],
           startDelay: 500,
           typeSpeed: 55,
           backSpeed: 100,

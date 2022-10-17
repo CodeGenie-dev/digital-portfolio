@@ -220,7 +220,12 @@
 @media screen and (max-width: 881px) {
     .nav-bar {
         background: transparent;
-
+        .logo {
+            background: rgba(24, 24, 24, 0.8);
+            padding-left: 10px;
+            padding-right: 10px;
+            left: 5px;
+        }
         nav{
             display: none;
         }

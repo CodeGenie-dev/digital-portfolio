@@ -113,7 +113,7 @@ h2 {
 
         .logo-container {
             position: relative;
-            width: 400px;
+            width: 43%;
             height: auto;
             top: 50px;
             right: 0;
@@ -129,6 +129,37 @@ h2 {
                 left: 0;
                 margin: auto;
             }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .home-page {
+        .logo-container {
+            width: 50%;
+        }
+    }
+}
+
+@media screen and (max-width: 828px) {
+    .home-page {
+        .logo-container {
+            width: 60%;
+        }
+    }
+}
+@media screen and (max-width: 600px) {
+    .home-page {
+        .logo-container {
+            width: 70%;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .home-page {
+        .logo-container {
+            width: 80%;
         }
     }
 }
