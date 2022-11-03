@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngular, faCss3, faGitAlt, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons';
 import Loader from 'react-loaders';
 import ProfilePhoto from '../../assets/images/ProfilePhoto.png';
+import AboutMeBg from '../AboutMeBg';
 const TagCloud = require('TagCloud');
 
 
@@ -53,8 +54,9 @@ const About = () => {
         }
     }, [])
 
-    return (
-        <div className='outerContainer'>        
+    return (        
+        <div className='outerContainer'> 
+            <AboutMeBg/>       
             <div className='container about-page'>
                 <div className='text-n-pic'>
                     <div className='text-zone'>
@@ -83,6 +85,7 @@ const About = () => {
                     <img
                         className='profile-photo'
                         src={ProfilePhoto}
+                        alt='profile'
                     />  
                 </div>
                 <div className='spinner-container'>
@@ -115,6 +118,7 @@ const About = () => {
             <img
                 className='photo-mob'
                 src={ProfilePhoto}
+                alt='profile'
             /> 
         </div>
     )
