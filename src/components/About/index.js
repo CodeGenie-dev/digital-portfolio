@@ -56,8 +56,8 @@ const About = () => {
 
     return (        
         <div className='outerContainer'> 
-            <AboutMeBg/>       
             <div className='container about-page'>
+                <AboutMeBg className='aboutmebg'/> 
                 <div className='text-n-pic'>
                     <div className='text-zone'>
                         <h1>

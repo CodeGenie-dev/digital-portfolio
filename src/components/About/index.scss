@@ -1,13 +1,18 @@
 .outerContainer {
+    position: relative;
+    height: 100vh;
     display: flex;
     .container {
         overflow: hidden;
+        height: 99vh;
+        margin-top: -50px;
     }
     .photo-mob{
         display: none;
     }
 }
 .text-zone {
+    margin-top: 100px;
     p.about-me-text {
         font-size: 15px;
     }
@@ -160,7 +165,10 @@
 }
 @media screen and (max-width: 1200px) {
     .outerContainer {
-        margin-top: 100px;
+        margin-top: 0;
+        .container {
+            margin-top: 0;
+        }
     }
     .spinner-container {
         display: flex;
@@ -174,7 +182,7 @@
         img {
             border-radius: 100%;
             margin-right: 50px;
-            margin-top: 50px;
+            margin-top: 150px;
         }
     }
 }
@@ -189,12 +197,13 @@
     .outerContainer{
         .photo-mob {
             display: unset;
+            z-index: 1;
             max-width: 150px;
             width: 30%;
             position: absolute;
             right: 0;
             border-radius: 100%;
-            margin: 70px 50px 0 20px;
+            margin: 70px 70px 0 20px;
             top: 0;
             animation: rollIn 1s 1.5s;
             animation-fill-mode: both;
@@ -210,18 +219,20 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
     .outerContainer{
         .photo-mob {
-            margin-top: 110px;
-            max-width: 95px;
+            margin-top: 90px;
+            max-width: 120px;
+            margin-right: 20px;
         }
     }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 393px) {
     .outerContainer{
         .photo-mob {
+            margin-top: 110px;
             margin-right: 30px;
             max-width: 95px;
         }
@@ -231,7 +242,7 @@
 @media screen and (max-width: 360px) {
     .outerContainer{
         .photo-mob {
-            margin-top: 140px;
+            // margin-top: 20px;
             // margin-right: 90px;
             max-width: 70px;
         }
@@ -247,7 +258,7 @@
 @media screen and (max-width: 280px) {
     .outerContainer{
         .photo-mob {
-            margin-top: 65px;
+            margin-top: 60px;
             margin-right: 90px;
             max-width: 95px;
         }

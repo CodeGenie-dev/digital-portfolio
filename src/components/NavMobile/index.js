@@ -62,7 +62,7 @@ const menuOverlay = css`
     transform: translateX(0%); 
   }
   nav {
-    padding-top: 400px;
+    padding-top: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -73,7 +73,7 @@ const menuOverlay = css`
       text-decoration: none;
       color: rgba(140, 146, 172, 0.5);
       cursor: pointer;
-      font-size: 25px;
+      font-size: 35px;
       transition: all 150ms ease-in-out;
       &:hover {
         color: rgba(140, 146, 172, 1);
