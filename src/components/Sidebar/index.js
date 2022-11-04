@@ -41,7 +41,7 @@ const Sidebar = () => {
                         <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
                     </a>
                 </li>
-                <li>
+                {/* <li>
                     <a target="_blank" rel='noreferrer' href='https://www.youtube.com/channel/UCrbDjTAH3B1ynS8DeHalmXA'>
                         <FontAwesomeIcon icon={faYoutube} color="#4d4d4e" />
                     </a>
@@ -50,7 +50,7 @@ const Sidebar = () => {
                     <a target="_blank" rel='noreferrer' href='https://www.google.com'>
                         <FontAwesomeIcon icon={faSkype} color="#4d4d4e" />
                     </a>
-                </li>
+                </li> */}
             </ul>
             <NavMobile className="navMobile"/>
         </div>
